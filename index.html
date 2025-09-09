@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <style>
+      header {
+        text-align: center;
+        background-color: aquamarine;
+      }
+
+      main {
+        background-color: brown;
+      }
+
+      footer {
+        background-color: blueviolet;
+      }
+      h1 {
+        font-size: 60px;
+      }
+      button {
+        font-size: 23px;
+        background-color: chocolate;
+        border-radius: 10%;
+        transition-duration: 0.4s;
+      }
+      button:hover {
+        background-color: chartreuse;
+        color: aliceblue;
+      }
+      input{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: blue;
+        border-radius: 12%;
+      }
+      img {
+        border-radius: 5%;
+      }
+      p:nth-child(2) {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        color: chartreuse;
+        text-align: center;
+      }
+      p:nth-child(3) {
+        color: blueviolet;
+      }
+      .alinhar {
+        text-align: center;
+      }
+      .formatar {
+        font-size: 40px;
+        color: blue;
+      }
+      .formulario {
+        text-align: center;        
+      }
+
+
+
+
+  </style>
+
+
+    <div>
+
+    <header>
+
+        <img src="img/gato.jpg" alt="Félix">
+        <nav>
+            <a href="#">Home</a>
+            <a href="public/sobre.html">sobre</a>
+            <a href="public/contato.html">contato</a>
+            <a href="#personagem">personagem</a>
+        </nav>
+    </header>
+
+    <main>
+
+      <article>        
+      <h1>O gato Félix</h1>
+      <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</strong> Iste perferendis beatae repudiandae sapiente optio porro maxime obcaecati labore expedita sit illo molestias velit ea vitae mollitia totam, recusandae laudantium magnam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptas eaque fuga quibusdam laborum. Optio, accusamus totam aperiam nesciunt placeat nihil quae sint cum accusantium culpa provident consectetur ad mollitia?</p>
+      </article>
+
+      <br>
+      <br>
+      <aside>
+        <img src="img/bolsa.jpg" alt="">
+      </aside>    
+      
+      <aside>
+        <div id="personagem">    
+        <h3 class="alinhar formatar">Categorias</h3>
+
+        </div>
+      </aside>
+
+      <aside>
+        <div class="formulario">
+          <input type="text" id="nome" placeholder="Coloque seu nome"><br>
+          <input type="text" id="mail" placeholder="Preencha com E-mail"><br>
+          <input type="text" id="idade" placeholder="Coloque sua idade">
+          <br>
+          <button type="button">Cadastrar</button>
+          <button type="button">Apagar</button>
+        </div>
+      </aside>
+    
+    </main>
+
+    <footer>
+        <h5>Todos os direitos reservados</h5>
+    </footer>
+
+    </div>
+  
+</body>
+</html>
